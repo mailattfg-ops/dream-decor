@@ -800,6 +800,13 @@ img {
     padding: 60px;
 }
 
+.contact-logo {
+    height: 48px;
+    width: auto;
+    margin-bottom: 25px;
+    display: block;
+}
+
 .contact-info p {
     margin-bottom: 40px;
 }
