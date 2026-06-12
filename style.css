@@ -229,15 +229,20 @@ img {
 }
 
 .logo {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    transition: var(--transition-fast);
 }
 
-.logo-accent {
-    color: var(--accent-gold);
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo-img {
+    height: 42px;
+    width: auto;
+    display: block;
+    object-fit: contain;
 }
 
 .nav-menu {
