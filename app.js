@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded', () => {
                           `*Message:* ${details || 'None'}`;
                           
         const encodedMsg = encodeURIComponent(waMessage);
-        const waUrl = `https://wa.me/918921860580?text=${encodedMsg}`;
+        const waUrl = `https://wa.me/917306394008?text=${encodedMsg}`;
         
         setTimeout(() => {
             submitBtn.disabled = false;
