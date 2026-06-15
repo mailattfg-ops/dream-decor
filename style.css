@@ -836,6 +836,16 @@ img {
     color: var(--text-primary);
 }
 
+.detail-value a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.detail-value a:hover {
+    color: var(--accent-gold);
+}
+
 .social-links {
     display: flex;
     gap: 15px;
