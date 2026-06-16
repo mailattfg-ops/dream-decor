@@ -103,77 +103,87 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Project Details Data
     const projectDetails = {
-        "culinary-elegance": {
-            title: "Culinary Elegance",
-            category: "Modular Kitchen",
-            client: "Mr. & Mrs. R. Nair",
-            materials: "Dark Oak cabinetry, Calacatta Gold marble, Copper pendant fittings",
+        "modular-kitchen-&-breakfast-counter": {
+            title: "Modular Kitchen & Breakfast Counter",
+            category: "Chavara",
+            client: "Private Client",
+            materials: "Marine Plywood, Acrylic Laminate, Granite Countertops",
             year: "2026",
-            story: "A complete redesign of a modern open-concept culinary space. Our team focused on structural layout flow, maximizing storage with handleless cabinetry, and selecting premium calacatta marble slabs with matching bronze accents to anchor the room's aesthetic.",
-            images: ["assets/gallery_kitchen.webp", "assets/kitchen.webp"]
+            story: "A complete custom kitchen and breakfast counter layout executed in Chavara. We optimized the work triangle, integrated heavy-duty modular hardware, and constructed a beautiful floating breakfast island.",
+            images: [
+                "assets/real projects/kitchen, chavara.webp",
+                "assets/real projects/kitchen 2, chavara.webp",
+                "assets/real projects/breakfast counter, chavara.webp"
+            ]
         },
-        "warm-sanctuary": {
-            title: "Warm Sanctuary",
-            category: "Bedroom Suite",
-            client: "Anjali Sharma",
-            materials: "Velvet paneling, Walnut veneers, Brushed gold",
-            year: "2025",
-            story: "Designed as a personal hotel-suite sanctuary. The highlight is the custom headboard integrated with sound-dampening panels, floating walnut nightstands, and soft, dimmable ambient pendant glow panels for relaxing evenings.",
-            images: ["assets/bedroom.webp", "assets/service_bed.webp"]
-        },
-        "bespoke-closet": {
-            title: "Bespoke Closet",
-            category: "Custom Closet",
-            client: "Vikram Malhotra",
-            materials: "Oak timber, Glass doors, Warm LED strip",
+        "modular-kitchen,-tv-unit-&-partition": {
+            title: "Modular Kitchen, TV Unit & Partition",
+            category: "Madannada",
+            client: "Private Client",
+            materials: "Multiwood, Veneer Finishes, Toughened Glass",
             year: "2026",
-            story: "An end-to-end walk-in closet customization. We integrated black oak frames, clear glass doors, and automated LED strip lights that illuminate shelves as you enter. The central island holds custom organizers for accessories.",
-            images: ["assets/wardrobe.webp", "assets/service_wardrobe.webp"]
+            story: "A full home interior execution in Madannada. This showcases a custom TV console unit, a fluted wooden dining room partition, and a functional high-end modular kitchen built to maximize space utility.",
+            images: [
+                "assets/real projects/tv-unit-madannada.webp",
+                "assets/real projects/partition-madannada.webp",
+                "assets/real projects/kitchen-madannada.webp"
+            ]
         },
-        "obsidian-lounge": {
-            title: "Obsidian Lounge",
-            category: "Living Space",
-            client: "The Grand Regency",
-            materials: "Obsidian marble, Polished walnut, Leather",
+        "wash-area-&-staircase": {
+            title: "Wash Area & Staircase",
+            category: "Edava",
+            client: "Private Client",
+            materials: "Teak Wood, LED Backlights, Premium Sanitaryware",
             year: "2026",
-            story: "An expansive, panoramic living room configuration that anchors the home. Features minimalist floating cabinets, premium bookmatched marble slabs, and custom modular sofas optimized to frame the garden view.",
-            images: ["assets/hero.webp", "assets/service_home.webp"]
+            story: "A premium wash area integrated with smart under-stair storage storage executed in Edava. The project highlights clean lines, hidden storage cabinets, and ambient washbasin lighting.",
+            images: [
+                "assets/real projects/wash & stair, Edava.webp"
+            ]
         },
-        "minimalist-console": {
-            title: "Minimalist Console",
-            category: "Media Console",
-            client: "Siddharth Sen",
-            materials: "Walnut slats, LED strips, White marble",
-            year: "2025",
-            story: "A custom entertainment console designed to hide all cabling and media players seamlessly. The background utilizes vertical walnut timber slats contrasted against an illuminated marble slab.",
-            images: ["assets/tv_unit.webp", "assets/service_tv.webp"]
-        },
-        "artisan-kitchen": {
-            title: "Artisan Kitchen",
-            category: "Modular Kitchen",
-            client: "Meera Fernandez",
-            materials: "Matte charcoal laminate, Brass pulls, Carrara marble",
+        "bespoke-wardrobe": {
+            title: "Bespoke Wardrobe",
+            category: "Punthalathazham",
+            client: "Private Client",
+            materials: "MDF panels, Soft-close hinges, Luxury Laminate",
             year: "2026",
-            story: "A classic yet contemporary kitchen space designed for high utility. Incorporates heavy-duty plywood lamination, scratch-resistant matte finishes, and a spacious central island for culinary preparation.",
-            images: ["assets/kitchen.webp", "assets/gallery_kitchen.webp"]
+            story: "A sleek bedroom wardrobe solution executed in Punthalathazham. Features internal organizers, custom drawer units, and a durable soft-close sliding system.",
+            images: [
+                "assets/real projects/waredrobe, punthalathazham.webp"
+            ]
         },
-        "bronze-partition": {
-            title: "Bronze Partition",
-            category: "Room Partition",
-            client: "Rajesh & Kavitha",
-            materials: "Fluted timber, Bronze frames, Frosted glass",
+        "wardrobe-with-bay-window": {
+            title: "Wardrobe with Bay Window",
+            category: "Ernakulam",
+            client: "Private Client",
+            materials: "Plywood carcass, Upholstered cushions, Premium laminates",
             year: "2026",
-            story: "A functional divider partition wall that maintains a sense of flow. Built with fluted solid wood panels set in hand-brushed bronze tracks, creating a private dining layout without shutting off light.",
-            images: ["assets/partition.webp", "assets/service_partition.webp"]
+            story: "An elegant master bedroom wardrobe featuring an integrated upholstered bay window seating area. Executed with hidden storage drawers under the bench and tall closets.",
+            images: [
+                "assets/real projects/waredrobe with bay window, ernamkulam.webp"
+            ]
         },
-        "aesthetic-accents": {
-            title: "Aesthetic Accents",
-            category: "Interior Details",
-            client: "Dr. Sandeep Gupta",
-            materials: "Ceramic, Brass, Organic linen",
-            year: "2025",
-            story: "Carefully curated accessory arrangements that add texture and personal identity to the spaces. Includes linen drapes, brass lighting bowls, and handmade sculptural clay ceramics.",
-            images: ["assets/decor.webp", "assets/service_decor.webp"]
+        "wardrobe-with-study-table": {
+            title: "Wardrobe with Study Table",
+            category: "Kottayam",
+            client: "Private Client",
+            materials: "High-grade laminates, Wooden study desk, Warm LED strip",
+            year: "2026",
+            story: "A bedroom layout combining wardrobe storage and a study desk workspace executed in Kottayam. Designed to optimize compact layouts while offering high aesthetic value.",
+            images: [
+                "assets/real projects/Wardrobe with study table, Kottayam.webp"
+            ]
+        },
+        "wardrobe-with-study-table---kulathupuzha": {
+            title: "Wardrobe with Study Table - Kulathupuzha",
+            category: "Kulathupuzha",
+            client: "Private Client",
+            materials: "Laminated plywood, Integrated desk, Custom pulls",
+            year: "2026",
+            story: "A bespoke kid's room design in Kulathupuzha integrating full-height wardrobe units and a large attached study desk layout with custom shelf organizers.",
+            images: [
+                "assets/real projects/Wardrobe with study table, Kulathupuzha.webp",
+                "assets/real projects/Wardrobe with study table 2, Kulathupuzha.webp"
+            ]
         }
     };
 
@@ -361,4 +371,37 @@ document.addEventListener('DOMContentLoaded', () => {
             
         }, 1200);
      });
+
+    // Gallery Category Filtering
+    const galleryTabBtns = document.querySelectorAll('.gallery-tab-btn');
+    const galleryItemsList = document.querySelectorAll('.gallery-item');
+
+    galleryTabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            galleryTabBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const filterValue = btn.getAttribute('data-filter');
+
+            galleryItemsList.forEach(item => {
+                const itemType = item.getAttribute('data-type');
+                if (filterValue === 'all' || itemType === filterValue) {
+                    item.style.display = '';
+                    setTimeout(() => {
+                        item.style.opacity = '1';
+                        item.style.transform = 'scale(1)';
+                    }, 10);
+                } else {
+                    item.style.opacity = '0';
+                    item.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        const activeFilter = document.querySelector('.gallery-tab-btn.active').getAttribute('data-filter');
+                        if (activeFilter !== 'all' && itemType !== activeFilter) {
+                            item.style.display = 'none';
+                        }
+                    }, 350);
+                }
+            });
+        });
+    });
 });
