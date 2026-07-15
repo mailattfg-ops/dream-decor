@@ -890,9 +890,9 @@ img {
     justify-content: center;
     width: 44px;
     height: 44px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--accent-gold);
     border-radius: 50%;
-    color: var(--text-secondary);
+    color: var(--accent-gold);
     transition: var(--transition-smooth);
 }
 
